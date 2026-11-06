@@ -1,3 +1,5 @@
+**Español** | [English](README.en.md)
+
 # SA DirectX 3.0 — Fixes & Additions
 
 Plugins ASI, shaders modificados y ajustes para **GTA San Andreas (PC 1.0 US)** con el preset
@@ -67,12 +69,3 @@ Código de Oscar Vidal bajo licencia [MIT](LICENSE). No cubre el trabajo de terc
 
 Este repositorio no contiene el preset original, ENBSeries, la actualización de Inari Lú ni archivos del juego.
 
----
-
-## English summary
-
-ASI plugins, modified shaders and settings for GTA San Andreas PC 1.0 US on top of SA DirectX 3.0 and Inari Lú's
-Unofficial Update. Download the ready-to-install package from **Releases**; see `docs/README_EN.txt`.
-Antivirus warnings such as `Wacatac.B!ml` are machine-learning heuristics triggered by typical ASI-plugin behaviour
-(memory patching, key polling, API hooks). The full source is published and rebuilds the shipped binaries with
-identical code sections (only timestamps differ). Build with `compilar.cmd` (MSVC x86 + DirectX SDK June 2010 headers).
