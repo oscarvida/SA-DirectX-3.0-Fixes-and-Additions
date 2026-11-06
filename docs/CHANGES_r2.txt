@@ -1,0 +1,18 @@
+SA DirectX 3.0 Fixes & Additions - r2 (2026-11-06)
+==================================================
+
+EN
+- All 8 .asi plugins: added standard Windows version information (company, description, product,
+  version) and a valid PE checksum. This reduces false-positive antivirus/cloud-scanner detections
+  of unsigned DLLs without metadata. The program code, data, imports, exports and relocations are
+  byte-identical to r1; behaviour does not change.
+- The optional RendimientoHiloPrincipal plugin is also distributed as a separate download.
+- FILES.sha256 regenerated.
+
+ES
+- Los 8 plugins .asi: se anadio informacion de version estandar de Windows (autor, descripcion,
+  producto, version) y un checksum PE valido, para reducir falsos positivos de antivirus y
+  escaneres en la nube con DLL sin firma ni metadatos. El codigo, datos, importaciones,
+  exportaciones y relocalizaciones son identicos byte a byte a r1; el comportamiento no cambia.
+- El plugin opcional RendimientoHiloPrincipal tambien se distribuye como descarga separada.
+- FILES.sha256 regenerado.

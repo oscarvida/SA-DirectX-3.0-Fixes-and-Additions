@@ -1,0 +1,6 @@
+salida/
+*.obj
+*.lib
+*.exp
+*.log
+__pycache__/

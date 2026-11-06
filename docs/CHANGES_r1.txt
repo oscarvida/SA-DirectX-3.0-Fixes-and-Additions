@@ -1,0 +1,26 @@
+﻿SA DirectX 3.0 Fixes & Additions — r1 (2026-11-05)
+==================================================
+
+EN
+- Copy-to-game-folder/modloader/_ARREGLO luces nocturnas ENB/LucesNocturnasENB.SA.asi: 2.0k -> 2.0k-r1.
+  Fix: the [Capturas] Carpeta default was the author's own path (D:\GTA\capturas gta-sa-enb); it is now
+  "capturas-ENB". A relative folder was resolved against the process working directory; it is now
+  resolved inside the game folder. An empty value now disables moving screenshots.
+  No other code, export, import, effect or default changes.
+- LucesNocturnasENB.SA.ini: one comment line added; no values changed.
+- README_EN.txt / README_ES.txt: r1 note added. README and LIBERTYCITY_DESCRIPTION texts: line endings
+  fixed (every line ended in CR CR LF; now CRLF, same text). FILES.sha256 regenerated.
+- All other files are byte-identical to the previous package.
+
+ES
+- LucesNocturnasENB.SA.asi: 2.0k -> 2.0k-r1. Corrige la carpeta de capturas por defecto (era una ruta
+  personal del autor, D:\GTA\capturas gta-sa-enb; ahora "capturas-ENB"), resuelve las rutas relativas
+  dentro de la carpeta del juego (antes, en el directorio de trabajo del proceso) y una carpeta vacia
+  desactiva el movimiento. Sin otros cambios de codigo, exportaciones, importaciones, efectos ni valores.
+- LucesNocturnasENB.SA.ini: una linea de comentario anadida; ningun valor cambia.
+- README_EN.txt / README_ES.txt: nota r1. README y LIBERTYCITY_DESCRIPTION: finales de linea corregidos
+  (CR CR LF -> CRLF, mismo texto). FILES.sha256 regenerado. El resto, identico byte a byte.
+
+SHA-256
+  LucesNocturnasENB.SA.asi previous / anterior: 08de900ff997769c50e0113c6a91f98df3e28c3b14884c65686834ffa65c62e4
+  LucesNocturnasENB.SA.asi r1:                 9fa207e7b92946271c4b831c138c44ead8b2feec9541f994478c90ba9567bb0f
